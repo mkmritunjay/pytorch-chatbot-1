@@ -19,11 +19,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": [
-        "Bye", 
-        "See you later", 
-        "Goodbye"
-      ],
+      "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -32,49 +28,44 @@
     },
     {
       "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
       "patterns": [
-        "Thanks", 
-        "Thank you", 
-        "That's helpful", 
-        "Thank's a lot!"
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
       ],
       "responses": [
-        "Happy to help!", 
-        "Any time!", 
-        "My pleasure"
+        "We sell coffee and tea",
+        "We have coffee and tea"
       ]
     },
     {
-      "tag": "contruction register",
+      "tag": "payments",
       "patterns": [
-        "how to create construction register application?",
-        "create construction register?",
-        "how do you create construction register application?"
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
       ],
       "responses": [
-        "Go to project -> project management -> click (+) button -> select construction register -> fill values and submit"
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
       ]
     },
     {
-      "tag": "construction contract",
+      "tag": "delivery",
       "patterns": [
-        "how to create sales construction contract application?",
-        "create construction contract?",
-        "how do you create construction contract application?"
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
       ],
       "responses": [
-        "Go to sales -> Construction contract -> fill values and submit"
-      ]
-    },
-    {
-      "tag": "budget",
-      "patterns": [
-        "How to create project budget application?",
-        "How do you create project budget?",
-        "create project budget application?"
-      ],
-      "responses": [
-        "Go to project -> project budget management -> create budget application"
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
       ]
     },
     {
