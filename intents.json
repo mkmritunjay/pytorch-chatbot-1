@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "contruction register",
+      "patterns": [
+        "how to create construction register application?",
+        "create construction register?",
+        "how do you create construction register application?"
+      ],
+      "responses": [
+        "Go to project -> project management -> click (+) button -> select construction register -> fill values and submit"
+      ]
+    },
+    {
+      "tag": "construction contract",
+      "patterns": [
+        "how to create sales construction contract application?",
+        "create construction contract?",
+        "how do you create construction contract application?"
+      ],
+      "responses": [
+        "Go to sales -> Construction contract -> fill values and submit"
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "How to create project budget application?",
+        "How do you create project budget?",
+        "create project budget application?"
+      ],
+      "responses": [
+        "Go to project -> project budget management -> create budget application"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
